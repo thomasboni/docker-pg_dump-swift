@@ -2,7 +2,15 @@
 
 A docker image which permit to run a pg_dump and push it on swift object storage
 
-## Environment variables:
+Tools installed:
+* postgres (this image id builded from official posgtres image)
+* python-swiftclient
+
+Details about versionning:
+* versionning of this docker image follow postgres version
+* swift version is the last avaible during build in pypi repository
+
+## Environment variables
 
 | Name | Description | Mandatory | Default |
 | ---- | ----------- | --------- | ------- |
