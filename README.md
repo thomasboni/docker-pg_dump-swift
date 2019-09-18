@@ -1,2 +1,2 @@
-# docker-pg_dump-swift
+# docker-pgdump-swift
 A docker image which permit to run a pg_cump and push it on swift object storage
