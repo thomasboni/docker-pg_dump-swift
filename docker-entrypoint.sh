@@ -8,6 +8,7 @@ BACKUP_PATH="${BACKUP_FOLDER}${DATE}${BACKUP_FILE}"
 
 # Set the password file
 echo "$DB_HOST:$DB_PORT:$DB_NAME:$DB_USER:$DB_PASS" > ~/.pgpass
+chmod 600 ~/.pgpass
 
 # Generate the dump
 echo "launch pg_dump"
